@@ -601,7 +601,7 @@ Login
         background-size: cover;
         background-color: black;    
         text-align: center;
-        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(home.jpg);
+        background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)) , url(../assets/home.jpg);
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
