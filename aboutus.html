@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <script src="validasiinput.js"></script>
+</head>
+<body>
+    <nav id="navbar"> 
+        <div>
+            <img id="gambarLogo" src="assets/logo.png" alt="Gambar Logo">
+        </div>
+        <div id="menus">
+            <div class="menunavbar">
+                <a href="home.html" class="tulisanmenu">Home</a>
+            </div>
+            <div class="dropdown">    
+                <button id="productbutton">Product</button>
+                <div class="dropdowncontent">
+                    <a href="healthcare.html">Healthcare</a>
+                    <a href="cosmetic.html">Cosmetic</a>
+                    <a href="misc.html">Misc.</a>
+                </div>
+            </div>
+            <div class="menunavbar">
+                <a href="aboutus.html" class="tulisanmenu">About Us</a>
+            </div>
+            <div class="menunavbar">
+                <a href="register.html" class="tulisanmenu">Register</a>
+            </div>
+            <div>
+                <button type="submit" class="login" onclick="document.location='login.html'">Login</button>
+            </div>
+        </div>   
+        <input type="button" id="buttonhamburger" value="&#9776;" onclick="showB()">
+    </nav>
+
+    <div class="hamburger">
+        <div id="menushamburger" style="display:none">
+            <div class="menunavbar">
+                <a href="home.html" class="tulisanmenu" style="color: white;">Home</a>
+            </div>
+            <div class="dropdown">    
+                <button id="productbutton">Product</button>
+                <div class="dropdowncontent">
+                    <a href="healthcare.html">Healthcare</a>
+                    <a href="cosmetic.html">Cosmetic</a>
+                    <a href="misc.html">Misc.</a>
+                </div>
+            </div>
+            <div class="menunavbar">
+                <a href="aboutus.html" class="tulisanmenu" style="color: white;">About Us</a>
+            </div>
+            <br>
+            <div class="menunavbar">
+                <a href="register.html" class="tulisanmenu" style="color: white;">Register</a>
+            </div>
+            <div>
+                <button type="submit" class="login" onclick="document.location='login.html'">Login</button>
+            </div>
+        </div>
+    </div> 
+
+    <div id="aboutus">
+        <p style="font-size: 200%" id="aboutustext">About Us</p>
+        <br><br>
+        <img src="assets/logo.png" alt="logo" width="140px">
+    </div>
+    <br>
+    <div id="all">
+        <p>
+            Founded in 2001, MediCare started as a small family-owned healthcare store in Kemanggisan, Jakarta. As more and more
+            people get to know about MediCare, it is natural for us to expand our stores to other cities and provinces. Now, we have more than
+            100 stores spread out in almost every major cities in Indonesia, Including but not limied to Aceh, Medan, Palembang, Jakarta, Surabaya, Pontianak
+            , Balikpapan and Makassar. We also offers a wider variety for products from healthcare, cosmectis, medicines, and many more.
+            We have a commitment to stay true to our humble origin and serving our customers with best customer services and high quality products.
+        </p>
+        <br>
+        <p style="font-size: 150%;" id="textbawahabout">
+            <strong>Contact Us</strong>
+            <br>
+        </p>
+        <p>
+            Customer Service Hotline: (+62) 081123456789
+            <br><br>
+            Customer Service Email: support@mediacare.id
+        </p>
+    </div>
+  
+    <footer>
+        <br>
+        <div id="footerbawah">
+            <a href="https://twitter.com/"><img src="assets/twitter.png" alt="twitter" class="bawah"></a>
+            <a href="https://www.facebook.com/"><img src="assets/facebook.png" alt="facebook" class="bawah"></a>
+            <a href="https://www.instagram.com/"><img src="assets/instagram.png" alt="instagram" class="bawah"></a>
+        </div>
+        <br>
+        <p id="copyright">Copyright Ⓒ 2022 Adrian Yu. All Rights Reserved.</p>
+        <br>
+    </footer>
+</body>
+</html>

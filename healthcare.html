@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthcare</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="validasiinput.js"></script>
+</head>
+<body>
+    <nav id="navbar"> 
+        <div>
+            <img id="gambarLogo" src="assets/logo.png" alt="Gambar Logo">
+        </div>
+        <div id="menus">
+            <div class="menunavbar">
+                <a href="home.html" class="tulisanmenu">Home</a>
+            </div>
+            <div class="dropdown">    
+                <button id="productbutton">Product</button>
+                <div class="dropdowncontent">
+                    <a href="healthcare.html">Healthcare</a>
+                    <a href="cosmetic.html">Cosmetic</a>
+                    <a href="misc.html">Misc.</a>
+                </div>
+            </div>
+            <div class="menunavbar">
+                <a href="aboutus.html" class="tulisanmenu">About Us</a>
+            </div>
+            <div class="menunavbar">
+                <a href="register.html" class="tulisanmenu">Register</a>
+            </div>
+            <div>
+                <button type="submit" class="login" onclick="document.location='login.html'">Login</button>
+            </div>
+        </div>  
+        <input type="button" id="buttonhamburger" value="&#9776;" onclick="showB()">
+    </nav>
+
+    <div class="hamburger">
+        <div id="menushamburger" style="display:none">
+            <div class="menunavbar">
+                <a href="home.html" class="tulisanmenu" style="color: white;">Home</a>
+            </div>
+            <div class="dropdown">    
+                <button id="productbutton">Product</button>
+                <div class="dropdowncontent">
+                    <a href="healthcare.html">Healthcare</a>
+                    <a href="cosmetic.html">Cosmetic</a>
+                    <a href="misc.html">Misc.</a>
+                </div>
+            </div>
+            <div class="menunavbar">
+                <a href="aboutus.html" class="tulisanmenu" style="color: white;">About Us</a>
+            </div>
+            <br>
+            <div class="menunavbar">
+                <a href="register.html" class="tulisanmenu" style="color: white;">Register</a>
+            </div>
+            <div>
+                <button type="submit" class="login" onclick="document.location='login.html'">Login</button>
+            </div>
+        </div>
+    </div>
+
+   <br>
+
+   <div id="judulproduk">
+        <p style="font-size: 200%;">Healthcare</p>
+        <small>Our most popular health care products, made and packaged carefully to cater your needs</small>
+   </div>
+   
+   <br><br><br>
+
+   <div id="barproduk">
+        <div class="produkbest">
+            <p id="bestselling"><span><strong>Best Selling!</strong></span></p>
+            <div id="text5">
+                <img src="assets/basiloil.jpg" alt="basiloil" class="gambarproduk">
+                <br><br>
+                <p style="font-size:110%"><strong>MediaCare Basil Oil</strong></p>
+                <br>
+                <p style="font-size:80%">Basil oil is extracted from the herb Ocimum basilicum, of the Lamiaceae (Labiatae) family. It is also known as European, French, common or sweet basil.</p>
+            </div>
+        </div>
+        <div class="produk">
+            <img src="assets/shampoo.png" alt="shampoo" class="gambarproduk">
+            <br><br>
+            <p style="font-size:110%"><strong>MediCare Special Shampoo</strong></p>
+            <br>
+            <p style="font-size:80%">Get a head start every morning and experience the refreshing tingle of our special shampoo. Our shampoo contains special ingredients and tea tree oil to help wash away impurities.</p>
+        </div>
+        <div class="produk">
+            <img src="assets/lotion.jpg" alt="lotion" class="gambarproduk">
+            <br><br>
+            <p style="font-size:110%;"><strong>MediCare Body Lotion</strong></p>
+            <br>
+            <p style="font-size:80%">Containing earth-derived ingredients (think shea butter, cocoa butter, and jojoba oil) the rich concoction is formulated to condition, nourish, and smooth dry skin.</p>
+        </div>
+   </div>
+
+   <footer>
+        <br>
+        <div id="footerbawah">
+            <a href="https://twitter.com/"><img src="assets/twitter.png" alt="twitter" class="bawah"></a>
+            <a href="https://www.facebook.com/"><img src="assets/facebook.png" alt="facebook" class="bawah"></a>
+            <a href="https://www.instagram.com/"><img src="assets/instagram.png" alt="instagram" class="bawah"></a>
+        </div>
+        <br>
+        <p id="copyright">Copyright Ⓒ 2022 Adrian Yu. All Rights Reserved.</p>
+        <br>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="validasiinput.js"></script>
+</head>
+<body>
+    <nav id="navbar"> 
+        <div>
+            <img id="gambarLogo" src="assets/logo.png" alt="Gambar Logo">
+        </div>
+        <div id="menus">
+            <div class="menunavbar">
+                <a href="home.html" class="tulisanmenu">Home</a>
+            </div>
+            <div class="dropdown">    
+                <button id="productbutton">Product</button>
+                <div class="dropdowncontent">
+                    <a href="healthcare.html">Healthcare</a>
+                    <a href="cosmetic.html">Cosmetic</a>
+                    <a href="misc.html">Misc.</a>
+                </div>
+            </div>
+            <div class="menunavbar">
+                <a href="aboutus.html" class="tulisanmenu">About Us</a>
+            </div>
+            <div class="menunavbar">
+                <a href="register.html" class="tulisanmenu">Register</a>
+            </div>
+            <div>
+                <button type="submit" class="login" onclick="document.location='login.html'">Login</button>
+            </div>
+        </div>   
+        <input type="button" id="buttonhamburger" value="&#9776;" onclick="showB()">
+    </nav>
+
+    <div class="hamburger">
+        <div id="menushamburger" style="display:none">
+            <div class="menunavbar">
+                <a href="home.html" class="tulisanmenu" style="color: white;">Home</a>
+            </div>
+            <div class="dropdown">    
+                <button id="productbutton">Product</button>
+                <div class="dropdowncontent">
+                    <a href="healthcare.html">Healthcare</a>
+                    <a href="cosmetic.html">Cosmetic</a>
+                    <a href="misc.html">Misc.</a>
+                </div>
+            </div>
+            <div class="menunavbar">
+                <a href="aboutus.html" class="tulisanmenu" style="color: white;">About Us</a>
+            </div>
+            <br>
+            <div class="menunavbar">
+                <a href="register.html" class="tulisanmenu" style="color: white;">Register</a>
+            </div>
+            <div>
+                <button type="submit" class="login" onclick="document.location='login.html'">Login</button>
+            </div>
+        </div>
+    </div> 
+    
+    <div id="home">
+        <div>
+            <h1 id="welcome">WELCOME TO MEDICARE</h1>
+            <br>
+            <p id="teksbawah">One stop solution for your healthcare.</p>
+            <br>
+        </div>
+        <div>
+            <button type="submit" class="buttonjoin" onclick="document.location='register.html'">Join Us</button>
+        </div>
+    </div>
+
+    <footer>
+        <br>
+        <div id="footerbawahhome">
+            <a href="https://twitter.com/"><img src="assets/twitter.png" alt="twitter" class="bawah"></a>
+            <a href="https://www.facebook.com/"><img src="assets/facebook.png" alt="facebook" class="bawah"></a>
+            <a href="https://www.instagram.com/"><img src="assets/instagram.png" alt="instagram" class="bawah"></a>
+        </div>
+        <br>
+        <p id="copyright">Copyright Ⓒ 2022 Adrian Yu. All Rights Reserved.</p>
+        <br>
+    </footer>
+</body>
+</html>

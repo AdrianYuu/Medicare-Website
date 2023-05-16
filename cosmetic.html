@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cosmetic</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="validasiinput.js"></script>
+</head>
+<body>
+    <nav id="navbar"> 
+        <div>
+            <img id="gambarLogo" src="assets/logo.png" alt="Gambar Logo">
+        </div>
+        <div id="menus">
+            <div class="menunavbar">
+                <a href="home.html" class="tulisanmenu">Home</a>
+            </div>
+            <div class="dropdown">    
+                <button id="productbutton">Product</button>
+                <div class="dropdowncontent">
+                    <a href="healthcare.html">Healthcare</a>
+                    <a href="cosmetic.html">Cosmetic</a>
+                    <a href="misc.html">Misc.</a>
+                </div>
+            </div>
+            <div class="menunavbar">
+                <a href="aboutus.html" class="tulisanmenu">About Us</a>
+            </div>
+            <div class="menunavbar">
+                <a href="register.html" class="tulisanmenu">Register</a>
+            </div>
+            <div>
+                <button type="submit" class="login" onclick="document.location='login.html'">Login</button>
+            </div>
+        </div>  
+        <input type="button" id="buttonhamburger" value="&#9776;" onclick="showB()">
+    </nav>
+
+    <div class="hamburger">
+        <div id="menushamburger" style="display:none">
+            <div class="menunavbar">
+                <a href="home.html" class="tulisanmenu" style="color: white;">Home</a>
+            </div>
+            <div class="dropdown">    
+                <button id="productbutton">Product</button>
+                <div class="dropdowncontent">
+                    <a href="healthcare.html">Healthcare</a>
+                    <a href="cosmetic.html">Cosmetic</a>
+                    <a href="misc.html">Misc.</a>
+                </div>
+            </div>
+            <div class="menunavbar">
+                <a href="aboutus.html" class="tulisanmenu" style="color: white;">About Us</a>
+            </div>
+            <br>
+            <div class="menunavbar">
+                <a href="register.html" class="tulisanmenu" style="color: white;">Register</a>
+            </div>
+            <div>
+                <button type="submit" class="login" onclick="document.location='login.html'">Login</button>
+            </div>
+        </div>
+    </div>
+
+   <br>
+
+   <div id="judulproduk">
+        <p style="text-align: center; font-size: 200%;">Cosmetic</p>
+        <small style="text-align: center;">Choose from a wide variety of cosmetics, made to spark the beauty inside you</small>
+   </div>
+
+   <br><br><br>
+
+   <div id="barproduk">
+        <div class="produkbest">
+            <p id="bestselling"><span><strong>Best Selling!</strong></span></p>
+            <div id="text5">
+                <img src="assets/nail_polish.jpg" alt="nailpolish" class="gambarproduk">
+                <br><br>
+                <p style="font-size:110%"><strong>MediCare Nail Polish</strong></p>
+                <br>
+                <p style="font-size:80%">Choose from a wide variety of colors, guaranteed to last long and easily removable.</p>
+            </div>
+        </div>
+
+        <div class="produk1">
+            <img src="assets/lipstick.jpg" alt="lipstick" class="gambarproduk">
+            <br><br>
+            <p style="font-size:110%"><strong>MediCare Lipstick</strong></p>
+            <br>
+            <p style="font-size:80%">Highly pigmented lip color with a creamy smooth glide during application that leaves lips feeling hydrated, nurtured, and conditioned</p>
+        </div>
+
+        <div class="produk1">
+            <img src="assets/brush.jpg" alt="brush" class="gambarproduk">
+            <br><br>
+            <p style="font-size:110%"><strong>MediCare 12pcs Brush Set</strong></p>
+            <br>
+            <p style="font-size:80%">Containing 12 high quality and durable make-up brushes.</p>
+        </div>
+   </div>
+
+   <footer>
+        <br>
+        <div id="footerbawah">
+            <a href="https://twitter.com/"><img src="assets/twitter.png" alt="twitter" class="bawah"></a>
+            <a href="https://www.facebook.com/"><img src="assets/facebook.png" alt="facebook" class="bawah"></a>
+            <a href="https://www.instagram.com/"><img src="assets/instagram.png" alt="instagram" class="bawah"></a>
+        </div>
+        <br>
+        <p id="copyright">Copyright Ⓒ 2022 Adrian Yu. All Rights Reserved.</p>
+        <br>
+    </footer>   
+</body>
+</html>
